@@ -210,6 +210,10 @@
       justify-content: space-between;
     }
 
+    #top-header .top-header-wrapper .left-ul {
+      display: flex;
+    }
+
     #top-header .top-header-wrapper .left-ul li {
       font-size: 14px;
     }
@@ -232,6 +236,14 @@
         display: flex;
         justify-content: flex-end;
         font-size: 14px;
+      }
+    }
+    @media (max-width:375px) {
+      #top-header .top-header-wrapper .left-ul {
+        display: block;
+      }
+      #top-header .top-header-wrapper .left-ul li {
+        display: inline-block;
       }
     }
   </style>
@@ -698,7 +710,7 @@
     href="https://numerique.vamtam.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnumerique.vamtam.com%2F2023%2F05%2F12%2Fthe-evolution-of-live-stream-content-and-short-form-video-a-look-at-the-tiktok-revolution%2F&#038;format=xml" />
   <meta name="generator"
     content="Elementor 3.14.0; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements; settings: css_print_method-external, google_font-enabled, font_display-swap">
-    <link rel="icon" href="./images/favicon.ico" />
+    <link rel="icon" href="../images/favicon.ico" />
   <noscript>
     <style id="rocket-lazyload-nojs-css">
       .rll-youtube-player,
@@ -1113,7 +1125,7 @@
               data-id="3ec1ab5" data-element_type="section" id="top-header">
               <div class="top-header-wrapper" style="background-color: #fff;">
                 <div class="">
-                  <ul class="left-ul" style="display: flex; list-style: none; margin: 5px 0; padding-left: 0;">
+                  <ul class="left-ul" style=" list-style: none; margin: 5px 0; padding-left: 0;">
                     <li><a href="mailto:support@d-coder.in"><img
                           style="width: 20px; margin: 0 3px 0 5px; vertical-align: middle;"
                           src="../images/icons/email.svg" />support@d-coder.in</a></li>
